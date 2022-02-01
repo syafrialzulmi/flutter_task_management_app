@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_management_app/feed.dart';
+import 'package:flutter_task_management_app/about.dart';
+// import 'package:flutter_task_management_app/feed.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: FeedPage(),
+      body: const About(),
     );
   }
 }
