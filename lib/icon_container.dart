@@ -36,6 +36,9 @@ class IconContainer extends StatelessWidget {
       decoration: BoxDecoration(
         color: this.bgColor,
         shape: BoxShape.circle,
+        border: this.borderColor == Colors.transparent
+            ? Border.all(width: 5, color: Colors.transparent)
+            : Border.all(width: 5, color: this.borderColor),
       ),
     );
   }
